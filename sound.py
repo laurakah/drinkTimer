@@ -9,7 +9,7 @@ def play():
     chunk = 1024
 
     #open a wav format music
-    f = wave.open(r"/Users/Mick/Desktop/drink!/come-on-you-can-do-it.wav","rb")
+    f = wave.open(r"come-on-you-can-do-it.wav","rb")
     #instantiate PyAudio
     p = pyaudio.PyAudio()
     #open stream
