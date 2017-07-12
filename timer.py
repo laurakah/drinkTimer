@@ -1,5 +1,6 @@
 import time
 import sys
+import sound
 
 def main():
     print(' ')
@@ -37,9 +38,7 @@ def main():
 
             print(' Drink!')
 
-            runit = "sound.py"
-            execfile(runit)
-
+            sound.play()
 
             time.sleep(1)
 
